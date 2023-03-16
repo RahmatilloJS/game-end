@@ -22,7 +22,7 @@ function getRandom() {
         num1.innerHTML = random1
         num2.innerHTML = random2
     }
-    img1.src = `images/dice${random1}.png`
-    img2.src = `images/dice${random2}.png`
+    img1.src = `imgs/dice${random1}.png`
+    img2.src = `imgs/dice${random2}.png`
 }
 btn.onclick = ()=> getRandom()
